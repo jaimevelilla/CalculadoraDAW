@@ -18,6 +18,10 @@ public class calculadoraDAW {
 		System.out.println("segundo numero");
 		num2 = teclado.nextInt;
 		
+		do{ System.out.println("el segundo número no puede ser 0");
+		num2 = teclado.nextInt;}
+			while{num2==0}
+	
 		division = num1 / num2;
 		
 		System.out.println("el resultado de la división es "+ division);
