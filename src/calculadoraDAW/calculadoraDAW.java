@@ -15,7 +15,15 @@ public class calculadoraDAW {
 		n2 = teclado.nextInt();
 		resta = n1-n2;
 		System.out.println("La resta de " + n1 + " y " + n2 + " es " + resta);
+		//multiplicacion
+		System.out.println("Escribe un número del 1 al 9");
+		n1 = teclado.nextInt();
+	
 		
+		System.out.println("Escribe un número del 1 al 9");
+		n2 = teclado.nextInt();
+		resta = n1-n2;
+		System.out.println("La multiplicacion de " + n1 + " y " + n2 + " es: " + n1*n2);
 	} //main
 	
 } //class
